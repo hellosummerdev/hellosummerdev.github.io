@@ -1,363 +1,733 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>웹개발자 이슬 | 경력 및 기술 소개</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Java/Spring 백엔드 개발자 이슬. 기업 업무 시스템과 B2B 솔루션을 개발했고, AI 기반 개발 프로세스를 직접 구축해 실무에 적용하고 있습니다." />
+        <meta name="author" content="이슬" />
+        <meta property="og:title" content="이슬 | Java/Spring 백엔드 개발자" />
+        <meta property="og:description" content="기업 업무 시스템 개발, 데이터 모델링, SQL 성능 개선, AI 기반 개발 프로세스(Traceboard) 구축" />
+        <title>이슬 | Java/Spring 백엔드 개발자</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
     </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">SEUL LEE</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">ABOUT</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">EXPERIENCE</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">EDUCATION</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">CERTIFICATIONS</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">TECH SKILLS</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">PORTFOLIO</a></li>
-                </ul>
+    <body>
+        <a class="skip-link" href="#main">본문 바로가기</a>
+        <header class="site-header">
+            <div class="wrap header-inner">
+                <a class="brand" href="#top">
+                    <span class="brand-name">이슬</span>
+                    <span class="brand-role">Backend Developer</span>
+                </a>
+                <nav aria-label="주요 메뉴">
+                    <ul class="nav-list">
+                        <li><a href="#strengths">강점</a></li>
+                        <li><a href="#featured">대표 작업</a></li>
+                        <li><a href="#career">경력</a></li>
+                        <li><a href="#skills">기술</a></li>
+                        <li><a href="#profile">학력·자격</a></li>
+                    </ul>
+                </nav>
             </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        WEB DEVELOPER
-                        <span class="text-primary">SEUL LEE</span>
-                    </h1>
-                    <p class="lead mt-2 mb-5">
-                        <strong>웹 풀스택 개발자 (Java) ·</strong>
-                        비즈니스와 기술을 함께 고민하는 풀스택 개발자 이슬입니다.
-                    </p>
-                    <h3 class="mt-5 mb-3">ABOUT ME</h3>
-                    <ul>
-                        <li class="mb-2">문제를 단순히 해결하는 것보다, 먼저 문제를 명확하게 정의하려 노력합니다.</li>
-                        <li class="mb-2">맡은 일은 끝까지 책임지며, 어려운 상황에서도 포기하지 않고 해보려는 자세를 갖고 있습니다.</li>
-                        <li class="mb-2">함께 일하는 동료들과의 소통과 협업을 중요하게 생각하며, 서로 배우고 성장하는 과정이 즐겁습니다.</li>
-                        <li class="mb-2">새로운 기술이나 도구에 대한 호기심이 많고, 시간이 나면 관련 내용을 찾아보고 실습해보는 편입니다.</li>
-                        <li class="mb-2">막히는 일이 생기면 먼저 문서나 커뮤니티를 참고해 스스로 해결하려고 시도합니다.</li>
-                        <li class="mb-2">디버깅이나 예외 상황을 꼼꼼히 보는 편이라, 기능 테스트 단계에서도 자주 보완점을 발견하곤 합니다.</li>
-                        <li>사용자 입장에서 불편한 점이 없는지 항상 고민하려고 노력합니다.</li>
-                    </ul>
-                    <h3 class="mt-5 mb-3">CONTACT</h3>
-                    <ul>
-                        <li class="mb-2">Email : hello.summer.dev@gmail.com</li>
-                        <li class="mb-2">Github : github.com/hellosummerdev</li>
-                    </ul>
+        </header>
+        <main id="main">
+            <section class="hero" id="top">
+                <div class="wrap hero-grid">
+                    <div class="hero-text">
+                        <p class="eyebrow">JAVA / SPRING BACKEND · 경력 3년</p>
+                        <h1>
+                            Java/Spring으로 업무 시스템을 개발하고,
+                            <br />
+                            AI 기반 개발 프로세스를 실무에 적용합니다.
+                        </h1>
+                        <p class="lead">3년 이상 Java와 Spring을 기반으로 B2B 메일 보안 솔루션과 기업 업무 시스템을 개발해 왔습니다. 금융 고객사의 승인 정책과 같이 다양한 조건과 예외 처리가 필요한 기능을 개발하며 요구사항 분석, 데이터 모델링, 업무 로직 설계를 경험했습니다. SQL 성능 개선과 데이터 정합성 검증, 고객사 시스템 운영 반영까지 수행했습니다.</p>
+                        <p class="lead">최근에는 AI 에이전트 기반 개발 관리 시스템인 Traceboard를 직접 기획하고 구축해 사내 시스템 리뉴얼의 분석·설계 과정에 활용하고 있습니다.</p>
+                        <p class="hero-contact">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                                <path d="m3 7 9 6 9-6"></path>
+                            </svg>
+                            <a href="mailto:hello.summer.dev@gmail.com">hello.summer.dev@gmail.com</a>
+                            <button class="copy-btn" type="button" data-copy="hello.summer.dev@gmail.com" aria-label="이메일 주소 복사" title="이메일 주소 복사">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <rect x="9" y="9" width="11" height="11" rx="2"></rect>
+                                    <path d="M5 15V6a2 2 0 0 1 2-2h9"></path>
+                                </svg>
+                            </button>
+                            <span class="copy-done" role="status" aria-live="polite"></span>
+                        </p>
+                    </div>
+                    <div class="hero-photo"><img src="assets/img/profile.jpg" alt="이슬 프로필 사진" width="220" height="220" /></div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-3">WORK EXPERIENCE</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <p class="lead mt-0 mb-4">
-                                <strong>마인드프로</strong>
-                                웹개발팀 주임
-                                <br />
-                                December 2022 - October 2024
-                            </p>
-                            <p class="mb-4">
-                                마인드프로 소속 개발자로 근무하며 지니뮤직, 페이레터, LS오토모티브 등 다양한 외부 프로젝트를 수행했습니다.
-                                <br />
-                                음악 플랫폼 DB 이관, 상품권 거래소 화면 및 API 개발, 제조업 내부 시스템 고도화 및 유지보수 등 다양한 도메인을 경험했습니다.
-                                <br />
-                                Java, Spring, MyBatis 기반으로 컨트롤러·서비스 구현부터 데이터 정합성 검증, 트리거 리팩토링, 예외 흐름 설계까지 전반적인 백엔드 개발 업무를 맡았습니다.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">GENIE MUSIC</h3>
-                            <p class="lead mt-1 mb-4">DB 이관 작업</p>
-                            <ul>
-                                <li class="mb-1">Oracle 기반 서비스의 DB를 MSSQL로 이관하며, 프로시저 및 함수 로직을 전면 재작성했습니다.</li>
-                                <li class="mb-1">Java, C#, VBScript 등의 애플리케이션 연동 환경을 분석하고 수정하여, 시스템이 새로운 DB 구조에 문제없이 작동하도록 했습니다.</li>
-                                <li class="mb-1">Oracle과 MSSQL 간의 데이터 타입·쿼리문법 차이를 파악하고, 복잡한 함수 로직을 MSSQL에 맞게 재설계했습니다.</li>
-                                <li>SQL Developer, SSMS 등을 활용해 구조적 불일치와 정합성 문제를 사전에 탐지하고 반복 테스트로 안정성을 확보했습니다.</li>
-                            </ul>
-                            <p>
-                                <strong>기술 스택 및 도구</strong>
-                                | MSSQL, Oracle, Java, SQL Developer, SSMS
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2022 - July 2023</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">PAYLETTER</h3>
-                            <p class="lead mt-1 mb-4">컬쳐랜드 상품권 거래소 시스템 신규 개발</p>
-                            <ul>
-                                <li class="mb-1">메인 화면의 카테고리(신규, 추천, 특가 등) 별 상품 리스트 API를 설계하고, 프론트 요구사항에 맞춰 데이터를 가공·응답했습니다.</li>
-                                <li class="mb-1">사용자 정렬 조건, 필터링 옵션 등 다양한 요청 조건을 반영한 프로시저를 설계하고 MyBatis로 연동했습니다.</li>
-                                <li>Thymeleaf 템플릿 기반의 프론트 영역에 데이터를 바인딩하고, 이벤트 및 인터랙션 처리를 JavaScript로 구현했습니다.</li>
-                            </ul>
-                            <p>
-                                <strong>기술 스택 및 도구</strong>
-                                | Java, Spring Boot, Thymeleaf, MyBatis, MSSQL, Git
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2023 - December 2023</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">LS AUTOMOTIVE</h3>
-                            <p class="lead mt-1 mb-4">소명 프로세스 관리 시스템(ICMS) 고도화</p>
-                            <ul>
-                                <li class="mb-1">실제 업무 흐름을 반영한 5단계 승인 로직을 설계하고 역할별 권한에 따른 화면·로직을 구현했습니다.</li>
-                                <li class="mb-1">역할별 접근 권한, 팀장 이상 승인 예외처리 등 업무 플로우를 시스템에 반영했습니다.</li>
-                                <li class="mb-1">JSP 기반의 프론트에서 사용자 요청 데이터를 서버로 전송하고, DB 변경 사항이 즉시 반영되도록 동기화했습니다.</li>
-                                <li>테스트 시나리오를 구성하고 전체 기능에 대한 테스트를 수행했습니다.</li>
-                            </ul>
-                            <p>
-                                <strong>기술 스택 및 도구</strong>
-                                | Java, Spring, JSP, Tiles, MariaDB, MyBatis, Git
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">November 2023 - January 2024</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">LS AUTOMOTIVE</h3>
-                            <p class="lead mt-1 mb-4">투자관리 시스템(IMS) · 발주관리 시스템(ATS) 유지보수</p>
-                            <ul>
-                                <li class="mb-1">비효율적인 로직을 리팩토링하고, 트리거·배치 JOB 등을 통해 데이터 정합성을 개선했습니다.</li>
-                                <li class="mb-1">변경 이력을 추적하기 위한 트리거를 설계하여, 사용자의 데이터 변경 내역을 시스템에서 자동 기록하도록 구현했습니다.</li>
-                                <li class="mb-1">조직도 개편으로 인한 HR 연동 로직 수정, 인사 배치 오류 디버깅, 날짜 포맷 충돌 문제 등을 해결하며 안정성 확보에 기여했습니다.</li>
-                                <li>Excel 다운로드 시 연도별 매출이 자동 생성되도록 쿼리 구조를 개선하고, 사용자가 원하는 형태로 동적 열 구성이 가능하도록 설계했습니다.</li>
-                            </ul>
-                            <p>
-                                <strong>기술 스택 및 도구</strong>
-                                | Java, JSP, Mysql, Oracle, MSSQL, SVN
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">January 2024 - August 2024</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">MINDFLOW</h3>
-                            <p class="lead mt-1 mb-4">문제은행 시스템 기획 및 개발</p>
-                            <ul>
-                                <li class="mb-1">자체 서비스인 문제은행 시스템의 사용자 및 관리자 기능 기획에 참여하고, 화면 흐름과 DB 테이블 구조를 정의하였습니다.</li>
-                                <li class="mb-1">관리자용 문제 등록/수정/삭제 및 사용자용 시험 응시 흐름을 구체화하며 서비스의 전체 흐름을 설계했습니다.</li>
-                                <li class="mb-1">Java, Spring Boot, MyBatis 기반의 컨트롤러, 서비스, 모델 구조를 구성하고 핵심 기능에 대한 기초 쿼리를 구현했습니다.</li>
-                                <li>DB 설계 개선, 관리자 기능 분리, 시험 문제와 사용자 풀이 데이터 매핑 등 실무 기초 설계 경험을 쌓았습니다.</li>
-                            </ul>
-                            <p>
-                                <strong>기술 스택 및 도구</strong>
-                                | Java, Spring Boot, MariaDB, Git
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2024 - October 2024</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">EDUCATION</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">성공회대학교</h3>
-                            <p class="lead mt-1 mb-3">사회과학부 - 사회학 · 정치학 복수전공</p>
-                            <p>학점 : 3.56 / 4.00</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2009 - August 2015</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">더조은아카데미학원</h3>
-                            <p class="lead mt-2 mb-3">빅데이터 기반 AI 알고리즘 서비스 과정</p>
-                            <p>1080시간 이수</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">October 2021 - June 2022</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Certifications-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">CERTIFICATIONS</h2>
-                    <h3 class="mb-3">AWARDS & CERTIFICATIONS</h3>
-                    <ul class="fa-ul mb-1 certification-list">
-                        <li class="certification-li">
-                            <span class="fa-li"><i class="fas fa-id-card fa-lg"></i></span>
-                            정보처리기사 필기 (실기 진행 중)
+                <div class="wrap">
+                    <ul class="stat-row" aria-label="주요 경험">
+                        <li>
+                            <strong>4곳</strong>
+                            <span class="stat-label">금융 고객사 프로젝트</span>
+                            <span class="stat-sub">은행 · 보험 · 카드</span>
                         </li>
-                        <li class="certification-li">
-                            <span class="fa-li"><i class="fas fa-id-card fa-lg"></i></span>
-                            SQLD (SQL개발자)
+                        <li>
+                            <strong>86% 단축</strong>
+                            <span class="stat-label">그룹 통계 조회 성능 개선</span>
+                            <span class="stat-sub">14초 → 1.9초</span>
                         </li>
-                        <li class="certification-li">
-                            <span class="fa-li"><i class="fas fa-id-card fa-lg"></i></span>
-                            최우수 성적 수료생 장관상 - 중소벤쳐기업부
+                        <li>
+                            <strong>33,395명</strong>
+                            <span class="stat-label">인사 데이터 연동 검증</span>
+                            <span class="stat-sub">조직 8,358건 및 사용자 데이터 정합성 검증</span>
                         </li>
-                    </ul>
-                    <h3 class="mt-5 mb-3">LANGUAGE</h3>
-                    <ul class="fa-ul mb-0 certification-list">
-                        <li class="certification-li">
-                            <span class="fa-li"><i class="fas fa-id-card fa-lg"></i></span>
-                            TOEIC - SCORE 950 (May 2025)
+                        <li>
+                            <strong>Traceboard</strong>
+                            <span class="stat-label">AI 개발 프로세스</span>
+                            <span class="stat-sub">직접 기획·구축, 실무 적용</span>
                         </li>
                     </ul>
                 </div>
             </section>
-            <hr class="m-0" />
-            <!-- Tech Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2>TECH SKILLS</h2>
-                    <br />
-                    <div class="techSkill-content">
-                        <div class="row">
-                            <div class="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                                <div class="progress-wrap">
-                                    <h3><strong>JAVA</strong></h3>
-                                    <!--.progress.progress-bar.color-1(role='progressbar', aria-valuenow='70', aria-valuemin='0', aria-valuemax='100', style='width:70%')
-    span 70%-->
-                                    실무 프로젝트에서 Java 기반의 웹 백엔드 개발을 수행했으며, 업무 로직 구현 시 분기 처리, 예외 처리, 서비스 계층 분리 등의 구조를 적용해 유지보수성을 고려하여 설계했습니다.
-                                    <br />
-                                    업무 도메인에 맞는 클래스를 정의하고, 데이터 전달을 위해 DTO 객체를 계층 간에 명확히 구분하여 활용한 경험이 있습니다.
-                                </div>
-                            </div>
-                            <div class="col-md-12 animate-box fadeInRight animated" data-animate-effect="fadeInRight">
-                                <div class="progress-wrap">
-                                    <h3><strong>SPRING, SPRING BOOT</strong></h3>
-                                    <!--.progress.progress-bar.color-2(role='progressbar', aria-valuenow='65', aria-valuemin='0', aria-valuemax='100', style='width:65%')
-    span 65%-->
-                                    Spring과 Spring Boot 기반의 다수 프로젝트에서 RESTful API 설계 및 서비스 레이어 구현을 담당하며 프론트와 연계되는 JSON 응답을 처리했습니다.
-                                    <br />
-                                    MyBatis와 JPA를 혼합해 사용하고, MyBatis를 활용한 DB 연동 및 프로시저 호출 경험이 있습니다.
-                                </div>
-                            </div>
-                            <div class="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                                <div class="progress-wrap">
-                                    <h3><strong>SQL (Oracle, MySQL, MSSQL)</strong></h3>
-                                    <!--.progress.progress-bar.color-4(role='progressbar', aria-valuenow='70', aria-valuemin='0', aria-valuemax='100', style='width:70%')
-    span 70%-->
-                                    테이블 설계와 쿼리 작성 경험이 있으며, JOIN, MERGE, 트리거, 프로시저, 뷰 등을 활용해 복잡한 데이터 흐름을 구성했습니다.
-                                    <br />
-                                    데이터 정합성 검증, 쿼리 최적화, 트랜잭션 처리 등 실무 중심의 SQL 작업 경험이 있습니다.
-                                </div>
-                            </div>
-                            <div class="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                                <div class="progress-wrap">
-                                    <h3><strong>Javascript</strong></h3>
-                                    <!--.progress.progress-bar.color-3(role='progressbar', aria-valuenow='60', aria-valuemin='0', aria-valuemax='100', style='width:60%')
-    span 60%-->
-                                    실무 프로젝트에서 jQuery 기반의 스크립트를 수정 또는 직접 구현하며 Ajax 요청, 비동기 데이터 처리, 사용자 이벤트에 따른 동적 화면 동작을 구성했습니다.
-                                    <br />
-                                    정렬 기준 변경 시 상품 목록을 새로 렌더링하거나, 옵션 선택에 따라 UI 요소를 변경하는 등의 DOM 조작 로직을 직접 구현했습니다.
-                                </div>
-                            </div>
-                            <div class="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                                <div class="progress-wrap">
-                                    <h3><strong>HTML5 / CSS</strong></h3>
-                                    <!--.progress.progress-bar.color-5(role='progressbar', aria-valuenow='60', aria-valuemin='0', aria-valuemax='100', style='width:60%')
-    span 60%-->
-                                    JSP 또는 Thymeleaf 기반 템플릿 화면을 직접 수정하고 구성한 경험이 있습니다.
-                                    <br />
-                                    기존 화면의 마크업 구조를 이해하고, 필요에 따라 HTML 구조를 재조정하거나 스타일을 수정하여 사용성과 가독성을 개선했습니다.
-                                </div>
-                            </div>
-                            <div class="col-md-12 animate-box fadeInRight animated" data-animate-effect="fadeInRight">
-                                <div class="progress-wrap">
-                                    <h3><strong>GitHub / SVN</strong></h3>
-                                    <!--.progress.progress-bar.color-6(role='progressbar', aria-valuenow='60', aria-valuemin='0', aria-valuemax='100', style='width:60%')
-    span 60%-->
-                                    SVN을 통한 팀 개발 경험과 GitHub 기반 버전관리 경험이 모두 있으며, 브랜치 전략을 활용해 코드 이력을 관리한 경험이 있습니다.
-                                </div>
-                            </div>
-                            <!--.col-md-12.animate-box.fadeInLeft.animated(data-animate-effect='fadeInLeft').progress-wrap
-    h3
-        strong React
-    //.progress
-        .progress-bar.color-7(role='progressbar', aria-valuenow='40', aria-valuemin='0', aria-valuemax='100', style='width:40%')
-            span 40%
-    | 현재 포트폴리오 프로젝트(Summerry)에서 컴포넌트 기반 구조와 상태관리, 라우팅을 처음부터 학습하며 실습 중입니다. 동적 UI 구성과 API 연동을 단계적으로 구현하고 있습니다.
--->
-                            <!--.col-md-12.animate-box.fadeInRight.animated(data-animate-effect='fadeInRight').progress-wrap
-    h3
-        strong TypeScript
-    //.progress
-        .progress-bar.color-8(role='progressbar', aria-valuenow='35', aria-valuemin='0', aria-valuemax='100', style='width:35%')
-            span 35%
-    | React 프로젝트와 함께 타입 안정성을 고려한 코딩 방식을 학습하고 있습니다. 인터페이스, 제네릭, 유니언 타입 등의 기초 문법을 실습하며 점차 익숙해지고 있습니다.
--->
-                        </div>
+            <section class="section" id="strengths">
+                <div class="wrap">
+                    <p class="eyebrow">STRENGTHS</p>
+                    <h2>일하는 방식</h2>
+                    <div class="strength-grid">
+                        <article class="strength">
+                            <span class="strength-no">01</span>
+                            <h3>분석 · 설계</h3>
+                            <p class="strength-head">업무에 필요한 조건과 예외를 파악하고 테이블 구조와 처리 순서를 설계합니다.</p>
+                            <p>개인정보 승인·차단 정책을 개발할 때 적용 대상, 탐지 기준, 승인권자 및 예외 조건을 분석한 뒤 데이터 모델을 설계했습니다. SQL을 개선할 때는 속도뿐 아니라 기존 집계 기준과 데이터의 정확성이 유지되는지도 검증합니다.</p>
+                        </article>
+                        <article class="strength">
+                            <span class="strength-no">02</span>
+                            <h3>커뮤니케이션</h3>
+                            <p class="strength-head">요구사항이 명확하지 않을 때는 대안을 정리해 담당자와 협의합니다.</p>
+                            <p>고객사 담당자, 기획자, 동료 개발자와 협의한 요구사항을 구현 조건과 테스트 시나리오에 반영합니다. 6주간 고객사에 상주하며 오픈을 지원했고, 팀원별 개발 기능을 통합하고 테스트를 진행했습니다.</p>
+                        </article>
+                        <article class="strength">
+                            <span class="strength-no">03</span>
+                            <h3>AI 활용</h3>
+                            <p class="strength-head">AI 에이전트에게 맡길 작업과 직접 검토할 작업을 구분합니다.</p>
+                            <p>AI 에이전트의 역할을 나누고 설계 확정, DB 구조 변경, 코드 병합 시 담당자의 검토와 승인을 거치도록 한 개발 관리 시스템(Traceboard)을 직접 기획·구축했습니다. 현재 사내 시스템 리뉴얼의 분석·설계에 적용하고 있습니다.</p>
+                        </article>
                     </div>
                 </div>
             </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="portfolio">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">PORTFOLIO</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Summerry</h3>
-                            <p class="lead mt-1 mb-3">
-                                Summerry는 Summer와 Merry의 합성어로, 즐겁고 감각적인 쇼핑 경험을 제공하는 이커머스 웹 애플리케이션입니다.
-                                <br />
-                                사용자와 관리자 모두의 편의성을 고려해 설계되었으며, 반응형 UI와 보안/확장성을 갖춘 구조로 실무 수준의 구현을 지향합니다.
-                            </p>
-                            <p class="mt-3 mb-1 font-weight-bold">Github</p>
-                            <ul>
-                                <li><a href="https://github.com/hellosummerdev/summerry-client" target="_blank">📂 summerry-client (Frontend)</a></li>
-                                <li><a href="https://github.com/hellosummerdev/summerry-api" target="_blank">⚙️ summerry-api (Backend)</a></li>
+            <section class="section section-alt" id="featured">
+                <div class="wrap">
+                    <p class="eyebrow">FEATURED WORK</p>
+                    <h2>대표 작업</h2>
+                    <p class="section-intro">화면은 실제 사용 중인 환경에서 캡처했으며, 누르면 크게 볼 수 있습니다.</p>
+                    <article class="feature" id="traceboard">
+                        <div class="feature-head">
+                            <p class="feature-tag">AI 기반 개발 프로세스</p>
+                            <h3>Traceboard</h3>
+                            <p class="feature-sub">AI 에이전트의 작업 요청부터 검토, 승인, 코드 병합까지 관리하고 주요 의사결정과 변경 이력을 기록하는 개발 관리 시스템</p>
+                            <p class="feature-period">2026.10 – 운영 중 · 기획·설계·구축 · 사내 시스템 리뉴얼 설계에 적용</p>
+                            <p class="chips-label">사용 기술</p>
+                            <ul class="chips">
+                                <li>TypeScript</li>
+                                <li>Next.js</li>
+                                <li>React</li>
+                                <li>Prisma</li>
+                                <li>MariaDB</li>
+                                <li>MCP</li>
+                                <li>Claude Code</li>
                             </ul>
-                            <p class="mt-3 mb-1 font-weight-bold">Notion</p>
-                            <ul>
-                                <li><a href="https://www.notion.so/Summerry-1f5427171df980a3b617deed500f7916?source=copy_link" target="_blank">📓 Summerry 개발 일지 및 프로젝트 기록 전체 보기</a></li>
-                            </ul>
-                            <p class="mt-4 mb-1 font-weight-bold">Project Stack</p>
-                            <p class="mb-1 text-muted small">▸ 프론트엔드</p>
-                            <ul>
-                                <li>HTML5, CSS3, JavaScript</li>
-                                <li>React, TypeScript</li>
-                            </ul>
-                            <p class="mb-1 text-muted small">▸ 백엔드</p>
-                            <ul>
-                                <li>Java, Spring Boot</li>
+                        </div>
+                        <ul class="compare-row">
+                            <li>
+                                <strong>미확정 요구사항 처리</strong>
+                                <p class="compare-before">
+                                    <span class="compare-tag">기존</span>
+                                    AI가 임의로 해석해 구현하고, 구현 결과만으로는 임의로 추가된 내용을 파악하기 어렵다
+                                </p>
+                                <p class="compare-after">
+                                    <span class="compare-tag">변경</span>
+                                    가능한 대안과 추천안을 정리해 담당자에게 검토를 요청하고, 답변을 받은 뒤 진행한다
+                                </p>
+                            </li>
+                            <li>
+                                <strong>의사결정 이력 관리</strong>
+                                <p class="compare-before">
+                                    <span class="compare-tag">기존</span>
+                                    작업자 개인의 대화 기록에만 남아 팀에 공유되지 않는다
+                                </p>
+                                <p class="compare-after">
+                                    <span class="compare-tag">변경</span>
+                                    결정 내용과 근거를 기록해 팀원이 확인하고 의견을 남길 수 있다
+                                </p>
+                            </li>
+                            <li>
+                                <strong>주요 변경 사항 승인</strong>
+                                <p class="compare-before">
+                                    <span class="compare-tag">기존</span>
+                                    설계, DB 구조, 코드 병합이 별도의 검토 절차 없이 반영된다
+                                </p>
+                                <p class="compare-after">
+                                    <span class="compare-tag">변경</span>
+                                    담당자 승인을 거쳐 반영되고, 반려 사유가 기록된다
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="gallery">
+                            <figure class="shot shot-main">
+                                <button class="shot-open" type="button" data-src="assets/img/projects/tb-dashboard.png" data-caption="대시보드 · 여러 프로젝트를 동시에 진행할 때 승인이나 결정을 기다리는 작업을 놓치지 않도록, 프로젝트별 진행률과 검토·승인 대기 항목을 한 화면에 모았습니다." aria-label="대시보드 크게 보기"><img src="assets/img/projects/tb-dashboard.png" alt="Traceboard 대시보드 화면" loading="eager" /></button>
+                                <figcaption>
+                                    <strong>대시보드</strong>
+                                    <span>여러 프로젝트를 동시에 진행할 때 승인이나 결정을 기다리는 작업을 놓치지 않도록, 프로젝트별 진행률과 검토·승인 대기 항목을 한 화면에 모았습니다.</span>
+                                </figcaption>
+                            </figure>
+                            <figure class="shot">
+                                <button class="shot-open" type="button" data-src="assets/img/projects/tb-decision.png" data-caption="결정 요청 · AI가 요구사항을 임의로 해석하지 않도록, 미확정 사항은 대안과 추천안을 정리해 담당자에게 확인을 요청합니다." aria-label="결정 요청 크게 보기"><img src="assets/img/projects/tb-decision.png" alt="Traceboard 결정 요청 화면" loading="lazy" /></button>
+                                <figcaption>
+                                    <strong>결정 요청</strong>
+                                    <span>AI가 요구사항을 임의로 해석하지 않도록, 미확정 사항은 대안과 추천안을 정리해 담당자에게 확인을 요청합니다.</span>
+                                </figcaption>
+                            </figure>
+                            <figure class="shot">
+                                <button class="shot-open" type="button" data-src="assets/img/projects/tb-approvals.png" data-caption="승인 · DB 구조 변경은 SQL과 변경 내용을, 코드 병합은 변경 사항을 검토한 뒤 승인하거나 반려합니다. 반려 사유도 기록됩니다." aria-label="승인 크게 보기"><img src="assets/img/projects/tb-approvals.png" alt="Traceboard 승인 화면" loading="lazy" /></button>
+                                <figcaption>
+                                    <strong>승인</strong>
+                                    <span>DB 구조 변경은 SQL과 변경 내용을, 코드 병합은 변경 사항을 검토한 뒤 승인하거나 반려합니다. 반려 사유도 기록됩니다.</span>
+                                </figcaption>
+                            </figure>
+                            <figure class="shot">
+                                <button class="shot-open" type="button" data-src="assets/img/projects/tb-runs.png" data-caption="실행 목록 · 어떤 역할의 에이전트가 무슨 작업을 했는지 나중에 확인할 수 있도록 실행 이력을 남깁니다." aria-label="실행 목록 크게 보기"><img src="assets/img/projects/tb-runs.png" alt="Traceboard 실행 목록 화면" loading="lazy" /></button>
+                                <figcaption>
+                                    <strong>실행 목록</strong>
+                                    <span>어떤 역할의 에이전트가 무슨 작업을 했는지 나중에 확인할 수 있도록 실행 이력을 남깁니다.</span>
+                                </figcaption>
+                            </figure>
+                            <figure class="shot">
+                                <button class="shot-open" type="button" data-src="assets/img/projects/tb-chat.png" data-caption="작업 요청 · 작업 배경과 요구사항, 완료 조건을 명시해 역할별 에이전트에게 작업을 요청하고, 에이전트의 질문에도 같은 화면에서 답합니다." aria-label="작업 요청 크게 보기"><img src="assets/img/projects/tb-chat.png" alt="Traceboard 작업 요청 화면" loading="lazy" /></button>
+                                <figcaption>
+                                    <strong>작업 요청</strong>
+                                    <span>작업 배경과 요구사항, 완료 조건을 명시해 역할별 에이전트에게 작업을 요청하고, 에이전트의 질문에도 같은 화면에서 답합니다.</span>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="feature-body">
+                            <div class="feature-summary">
+                                <div class="feature-block">
+                                    <h4>배경과 문제</h4>
+                                    <p>AI 코딩 도구를 쓰면서 개발 속도는 빨라졌지만, AI가 요구사항에 없는 규칙을 임의로 구현하거나 설계 결정의 근거가 작업자 개인의 대화 기록에만 남는 문제가 있었습니다. 코드가 바뀌어도 설계 문서는 따로 고쳐야 해서 서로 내용이 달라지기도 했습니다. 개인의 검토에만 의존해서는 일관된 개발 품질을 유지하기 어렵다고 판단해, AI의 작업 범위와 담당자의 검토 절차를 시스템에 반영했습니다.</p>
+                                </div>
+                                <div class="feature-side">
+                                    <div class="feature-block">
+                                        <h4>담당 역할 및 AI 활용 범위</h4>
+                                        <p>기능 범위, 화면 구성, 데이터 모델, 에이전트별 역할과 승인 절차를 직접 기획하고 설계했습니다. 코드는 Claude Code 에이전트가 작성했고, 저는 설계 문서와 DB 변경 사항, 코드 병합 내용을 건별로 검토했습니다. 수정이 필요한 부분은 반려하고, 자동화 테스트와 화면 검증으로 구현 결과가 요구사항에 부합하는지 확인했습니다.</p>
+                                    </div>
+                                    <div class="feature-block">
+                                        <h4>현재 상태</h4>
+                                        <p>현재 사내 중앙 관제 시스템 리뉴얼의 요구사항 분석과 설계에 사용하고 있습니다. AI를 활용할 때는 코드 작성 시간을 줄이는 것보다, 작업 범위와 판단 기준을 정하고 결과를 검증할 수 있게 만드는 일이 더 중요하다는 것을 배웠습니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <details class="feature-more">
+                                <summary><span class="feature-more-title">시스템 구조와 고민한 점</span></summary>
+                                <div class="arch-block">
+                                    <div class="arch" role="img" aria-label="Traceboard 시스템 구조: 담당자는 웹 화면으로, 에이전트는 MCP 서버로 같은 업무 로직과 DB에 기록합니다.">
+                                        <div class="arch-cols">
+                                            <div class="arch-col">
+                                                <div class="arch-box">
+                                                    <strong>담당자 · 팀원</strong>
+                                                    <span>작업 요청, 결정 답변, 승인·반려</span>
+                                                </div>
+                                                <span class="arch-arrow" aria-hidden="true">↓</span>
+                                                <div class="arch-box">
+                                                    <strong>Traceboard 웹 화면</strong>
+                                                    <span>Next.js</span>
+                                                </div>
+                                                <span class="arch-arrow" aria-hidden="true">↓</span>
+                                            </div>
+                                            <div class="arch-col">
+                                                <div class="arch-box">
+                                                    <strong>Claude Code 에이전트</strong>
+                                                    <span>분석 · 설계 · 개발 · 리뷰 · QA</span>
+                                                </div>
+                                                <span class="arch-arrow" aria-hidden="true">↓</span>
+                                                <div class="arch-box">
+                                                    <strong>MCP 서버</strong>
+                                                    <span>진행 기록, 결정 요청, 승인 요청 등록</span>
+                                                </div>
+                                                <span class="arch-arrow" aria-hidden="true">↓</span>
+                                            </div>
+                                        </div>
+                                        <div class="arch-box arch-base">
+                                            <strong>공통 업무 로직 · MariaDB</strong>
+                                            <span>단계 상태, 승인·결정 이력, 작업 기록 저장</span>
+                                        </div>
+                                    </div>
+                                    <p class="arch-note">웹 화면과 MCP 서버가 같은 업무 로직을 사용해 하나의 DB에 기록합니다. 담당자가 화면에서 처리한 승인과 에이전트가 등록한 기록이 같은 단계 상태로 관리됩니다.</p>
+                                </div>
+                                <ol class="approach">
+                                    <li>
+                                        <strong>AI 개발 과정에서 어느 단계에 담당자 검토가 필요한가</strong>
+                                        <p>모든 작업 단계에서 승인을 요구하면 작업이 느려지고, 승인을 없애면 검증할 기회가 사라집니다. 그래서 이후 작업에 미치는 영향이 큰 세 단계(설계 확정, DB 구조 변경, 코드 병합)에만 담당자 승인을 두었습니다. 에이전트는 분석·설계·개발·리뷰·QA로 역할을 나누었고, 나머지 단계는 개발 에이전트와 분리된 리뷰·QA 에이전트가 검증합니다.</p>
+                                    </li>
+                                    <li>
+                                        <strong>AI가 불명확한 요구사항을 임의로 해석하는 문제</strong>
+                                        <p>에이전트가 정해지지 않은 사항을 발견하면 구현을 멈추고 결정 요청을 등록하도록 했습니다. 결정 요청에는 질문, 선택지, 추천안, 시스템 구조에 미치는 영향이 들어갑니다. 담당자가 결정한 내용은 이력으로 기록되며, 에이전트는 답변에 맞춰 산출물을 수정합니다.</p>
+                                    </li>
+                                    <li>
+                                        <strong>작업 기록과 설계 문서를 일관되게 남기는 방법</strong>
+                                        <p>작업이 끝난 후 별도로 기록하면 업무가 바쁠 때 일부 내용이 누락되기 쉽고, 작성자마다 형식도 달라집니다. 그래서 에이전트가 작업하면서 진행 기록, 버그, 승인 요청을 정해진 형식으로 직접 등록하도록 연동 도구(MCP 서버)를 만들었습니다. 설계 문서와 ERD도 코드와 같은 승인 절차로 관리해, 코드가 바뀌면 문서도 함께 수정됩니다.</p>
+                                    </li>
+                                    <li>
+                                        <strong>DB 구조 변경 이력 관리</strong>
+                                        <p>DB 구조를 바꿀 때는 변경 내용을 SQL 파일로 작성해 검토와 승인을 거친 뒤 적용합니다. 변경 내용과 시점, 사유가 기록으로 남습니다. 개발·테스트·운영 DB에 같은 순서로 적용해 환경별로 DB 구조가 달라지지 않게 했습니다.</p>
+                                    </li>
+                                    <li>
+                                        <strong>팀원이 진행 상황을 공유하고 의사결정에 참여하는 개발 환경</strong>
+                                        <p>개인용 도구에 그치지 않도록 계정과 권한 기능을 추가했습니다. 팀원은 대시보드에서 프로젝트별 진행 상황과 승인·결정 대기 건을 확인하고, 결정 요청에 답하거나 의견을 남길 수 있습니다. 채팅 화면에서 에이전트에게 작업을 요청하는 것도 가능합니다.</p>
+                                    </li>
+                                </ol>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="feature" id="central">
+                        <div class="feature-head">
+                            <p class="feature-tag">요구사항 분석 · 데이터 모델링 · 시스템 구조 설계</p>
+                            <h3>신중앙 관제 시스템 리뉴얼</h3>
+                            <p class="feature-sub">메일 보안 장비, 고객사 정보, 계약 및 영업 이력을 관리하는 사내 시스템 리뉴얼</p>
+                            <p class="feature-period">2026.10 – 진행 중 · 기원테크 · 분석·설계 단계(개발 착수 전)</p>
+                            <p class="chips-label">설계 기준 기술 스택(적용 예정)</p>
+                            <ul class="chips">
+                                <li>Java 21</li>
+                                <li>Spring Boot</li>
+                                <li>JPA · MyBatis</li>
+                                <li>React · TypeScript</li>
                                 <li>MariaDB</li>
                             </ul>
-                            <p class="mb-1 text-muted small">▸ 기타</p>
-                            <ul>
-                                <li>Git, GitHub, npm</li>
-                            </ul>
-                            <p class="small text-muted mt-3">※ 본 프로젝트는 ThemeForest의 Ekka eCommerce HTML Template을 구매하여 프론트엔드의 구조 및 스타일을 직접 수정하여 개발하였습니다.</p>
+                        </div>
+                        <div class="gallery">
+                            <figure class="shot">
+                                <button class="shot-open" type="button" data-src="assets/img/projects/cc-screens.png" data-caption="화면별 진행 현황 · 메뉴별 설계 진행률과 우선적으로 검토해야 할 사항을 표시합니다. 설계가 지연되는 영역을 파악하는 데 활용합니다." aria-label="화면별 진행 현황 크게 보기"><img src="assets/img/projects/cc-screens.png" alt="신중앙 관제 시스템 리뉴얼 화면별 진행 현황 화면" loading="lazy" /></button>
+                                <figcaption>
+                                    <strong>화면별 진행 현황</strong>
+                                    <span>메뉴별 설계 진행률과 우선적으로 검토해야 할 사항을 표시합니다. 설계가 지연되는 영역을 파악하는 데 활용합니다.</span>
+                                </figcaption>
+                            </figure>
+                            <figure class="shot">
+                                <button class="shot-open" type="button" data-src="assets/img/projects/cc-erd-domains.png" data-caption="업무 영역 간 관계 및 결정 사항 · 업체, 고객사, 서버, 중앙 데이터 영역의 관계와 영역별로 확인이 필요한 사항을 함께 표시합니다." aria-label="업무 영역 간 관계 및 결정 사항 크게 보기"><img src="assets/img/projects/cc-erd-domains.png" alt="신중앙 관제 시스템 리뉴얼 업무 영역 간 관계 및 결정 사항 화면" loading="lazy" /></button>
+                                <figcaption>
+                                    <strong>업무 영역 간 관계 및 결정 사항</strong>
+                                    <span>업체, 고객사, 서버, 중앙 데이터 영역의 관계와 영역별로 확인이 필요한 사항을 함께 표시합니다.</span>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="feature-body">
+                            <div class="feature-summary">
+                                <div class="feature-block">
+                                    <h4>프로젝트 소개</h4>
+                                    <p>기존 중앙 관제 시스템과 새 화면 기획안을 분석해 요구사항, 데이터 모델, 시스템 구조를 다시 설계하고 있습니다. 화면 기획안에는 서버 처리 방식, 업무 규칙, 권한, 예외 조건이 정의되어 있지 않았습니다. 영업팀과 운영팀의 피드백에 따라 기획도 계속 바뀔 것으로 예상했습니다. 그래서 최초 설계안을 그대로 유지하기보다 기획 변경에 빠르게 대응할 수 있는 설계를 목표로 했습니다.</p>
+                                </div>
+                                <div class="feature-side">
+                                    <div class="feature-block">
+                                        <h4>담당 역할 및 AI 활용 범위</h4>
+                                        <p>설계 원칙과 작업 우선순위를 정하고, 영업팀·운영팀의 피드백을 정리해 미확정 사항을 결정했습니다. 요구사항 분석과 설계 문서의 초안은 Traceboard의 역할별 에이전트가 작성했고, 저는 화면 기획안과 설계 내용을 비교해 승인하거나 수정을 요청했습니다.</p>
+                                    </div>
+                                    <div class="feature-block">
+                                        <h4>진행 현황 및 성과</h4>
+                                        <p>데이터 모델, 공통 업무 규칙, 시스템 구조 설계를 확정했습니다. 설계 도중 화면 기획안이 전면 개정되었을 때는 4영업일 안에 변경 사항을 설계에 반영해 검토와 승인을 마쳤습니다. 현재 메뉴 관리 화면의 목업을 작성하고 개발 착수를 준비하고 있습니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <details class="feature-more">
+                                <summary><span class="feature-more-title">주요 설계 과정</span></summary>
+                                <ol class="approach">
+                                    <li>
+                                        <strong>화면 기획안에 정의되지 않은 업무 규칙을 어떻게 정리할 것인가</strong>
+                                        <p>전체 메뉴를 화면과 기능 단위로 나누어 등록했습니다. 화면 기획안에서 확인할 수 없는 규칙은 임의로 설계하지 않고 담당자에게 확인이 필요한 사항으로 등록했습니다. 데이터 모델에 영향을 미치는 사항부터 먼저 협의하도록 업무 영역별로 우선순위를 정했습니다.</p>
+                                    </li>
+                                    <li>
+                                        <strong>기획 변경이 기존 설계에 미치는 영향을 어떻게 파악할 것인가</strong>
+                                        <p>테이블과 컬럼을 관련 화면 기획안과 연결해 두었습니다. 설계 도중 기획안이 전면 개정되었을 때, 화면과 데이터 모델 간의 연결 정보를 활용해 접수 당일에 영향 범위를 파악했습니다. 기존 결정 사항은 그대로 유지할 것과 다시 확인할 것으로 나눈 뒤 변경 사항을 설계에 반영했습니다.</p>
+                                    </li>
+                                    <li>
+                                        <strong>영업팀·운영팀의 피드백을 설계에 반영하는 절차</strong>
+                                        <p>피드백은 확인이 필요한 사항으로 등록해 담당자와 협의한 후 확정합니다. 확정된 내용은 ERD, 테이블 정의서, 변경 SQL에 함께 반영하고, 문서와 SQL의 내용이 일치하는지 확인한 뒤 승인합니다. 피드백으로 더 이상 필요하지 않게 된 테이블과 컬럼은 따로 검토해 정리했습니다.</p>
+                                    </li>
+                                    <li>
+                                        <strong>데이터 모델과 시스템 구조 설계</strong>
+                                        <p>등록·수정 이력 관리, 공통 코드, 삭제 방식 같은 공통 규칙을 먼저 정하고 데이터 모델을 설계했습니다. Spring Boot 버전, 인증 방식, 데이터 접근 방식은 기술별 장단점을 비교하고 선정 근거를 문서화했습니다.</p>
+                                    </li>
+                                    <li>
+                                        <strong>구조 변경 절차와 기존 데이터 이관 계획</strong>
+                                        <p>운영 전까지는 기준 스키마를 수정한 뒤 DB를 다시 생성하는 방식으로 변경 부담을 줄였습니다. 운영 직전에 구조를 확정한 뒤에는 변경 SQL과 원복 SQL을 함께 관리하도록 절차를 정했습니다. 기존 시스템의 데이터는 구조 분석, 항목 매핑, 사전 이관 테스트, 건수·합계 검증 순서로 이관할 계획입니다.</p>
+                                    </li>
+                                </ol>
+                            </details>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="section" id="career">
+                <div class="wrap">
+                    <p class="eyebrow">CAREER</p>
+                    <h2>경력과 프로젝트</h2>
+                    <p class="section-intro">고객사는 이름 대신 업종으로 표기했습니다. 항목을 누르면 상세 내용을 볼 수 있습니다.</p>
+                    <article class="company">
+                        <div class="company-head">
+                            <h3>기원테크</h3>
+                            <p class="company-meta">개발본부 대리 · 2025.08 – 현재</p>
+                        </div>
+                        <p class="company-desc">B2B 메일 보안 솔루션 SendGUARD를 개발합니다. 금융 고객사의 승인 정책, 통계, 외부 시스템 연동을 개발하고 보안 점검 대응과 고객사 오픈을 지원했습니다.</p>
+                        <div class="project-list">
+                            <details class="project" id="project-policy">
+                                <summary>
+                                    <span class="project-title">
+                                        <strong>개인정보 승인·차단 정책 개발</strong>
+                                        <span class="project-client">보험 고객사 · 2026.07–10</span>
+                                    </span>
+                                    <span class="project-summary">업무 규칙 분석과 데이터 모델 설계, 화면·업무 로직 개발, 개발자별 기능 통합과 테스트</span>
+                                </summary>
+                                <div class="project-detail">
+                                    <dl>
+                                        <dt>요구사항</dt>
+                                        <dd>기존 일반 메일 승인 기능에, 개인정보 탐지 결과에 따라 메일을 승인하거나 차단하는 정책을 추가해야 했습니다. 적용 대상(사용자·조직·전체), 탐지 기준(개인정보 통합 합계 또는 항목별 건수), 승인권자, 예외 조건을 함께 고려해 정책을 적용할 수 있어야 했습니다.</dd>
+                                        <dt>설계</dt>
+                                        <dd>정책별 탐지·차단 조건과 적용 대상, 승인권자를 관리할 수 있는 데이터 모델을 설계했습니다. 정책 우선순위를 바꿀 때 순서를 다시 정렬하는 규칙(삽입, 앞으로 이동, 뒤로 이동)과 등록·수정·삭제 변경 이력도 함께 설계했습니다.</dd>
+                                        <dt>구현</dt>
+                                        <dd>목록·등록·상세·수정 화면과 서비스 로직, 조회 SQL을 개발했습니다. 메일 필터링 엔진에 정책을 전달하기 위한 명령 파일 생성 기능까지 구현했습니다. 일반 승인과 개인정보 승인이 한 요청에 함께 적용될 때의 처리 순서를 정하고, 그룹웨어 승인 API의 응답 유형을 정상 처리, 이미 처리된 요청, 처리 실패, 비정상 접근으로 구분했습니다.</dd>
+                                        <dt>협업·검증</dt>
+                                        <dd>개발자별 작업 브랜치 병합과 기능 통합을 맡았습니다. 두 정책의 조합을 기준으로 통합 테스트 시나리오를 작성하고 팀원별로 테스트 범위를 나누었습니다. 결과를 취합한 뒤 발견된 오류의 원인을 분석하고 수정했습니다.</dd>
+                                    </dl>
+                                    <p class="project-stack">Java · Spring Boot · JPA · MyBatis · MariaDB · JSP</p>
+                                </div>
+                            </details>
+                            <details class="project" id="project-stats">
+                                <summary>
+                                    <span class="project-title">
+                                        <strong>발신 통계 조회 SQL 개선</strong>
+                                        <span class="project-client">금융 고객사 · 솔루션 공통 · 2025.10–2026.11</span>
+                                    </span>
+                                    <span class="project-summary">그룹 통계 조회 14초 → 1.9초, 승인 정책 조회 6~7초 → 428ms, 통계 쿼리 49개 → 31개로 공통화</span>
+                                </summary>
+                                <div class="project-detail">
+                                    <dl>
+                                        <dt>문제</dt>
+                                        <dd>금융 고객사의 그룹별 발신 통계 조회에 약 14초, 승인 정책 조회에 6~7초가 걸렸습니다. 그룹·조직·계정별 통계가 화면과 쿼리를 각각 따로 사용하고 있어, 한 곳을 수정하면 다른 화면의 건수와 맞지 않는 문제도 반복됐습니다.</dd>
+                                        <dt>원인</dt>
+                                        <dd>여러 테이블을 LEFT JOIN하는 과정에서 조인 결과의 행 수가 증가하면서 같은 데이터가 중복 집계되고 있었습니다. 데이터가 없는 그룹도 0건으로 표시해야 했기 때문에, 조인 조건을 줄이는 것만으로는 해결할 수 없었습니다.</dd>
+                                        <dt>개선</dt>
+                                        <dd>필요한 데이터를 먼저 집계한 뒤 그룹 기준으로 결합하도록 쿼리 구조를 바꿨습니다. 0건 표시 기준은 유지하면서 조회 시간을 줄였습니다. 이후 그룹·조직·계정별 통계 화면과 쿼리의 공통 조건을 통합했습니다.</dd>
+                                        <dt>결과</dt>
+                                        <dd>그룹 통계 조회는 14초에서 1.9초로(약 86% 단축), 승인 정책 조회는 6~7초에서 428ms로 줄었습니다. 통계 쿼리는 49개에서 31개로, 매퍼 파일은 1,183줄에서 713줄로 줄었습니다. 정책 현황 건수 불일치와 기타 집계 오류도 함께 수정했습니다.</dd>
+                                    </dl>
+                                    <p class="project-stack">MariaDB · SQL · MyBatis · Java</p>
+                                </div>
+                            </details>
+                            <details class="project" id="project-sync">
+                                <summary>
+                                    <span class="project-title">
+                                        <strong>인사·조직 연동 배치와 퇴사자 처리</strong>
+                                        <span class="project-client">공공 고객사 · 2025.11–2026.11</span>
+                                    </span>
+                                    <span class="project-summary">외부 DB 연동 모듈과 스케줄러 개발, 대량 삭제 방지 로직, 조직 8,358건·사용자 33,395건 연동 결과 검증</span>
+                                </summary>
+                                <div class="project-detail">
+                                    <dl>
+                                        <dt>요구사항</dt>
+                                        <dd>고객사 인사 DB의 조직·사용자 정보를 주기적으로 가져와 솔루션 내부 구조에 맞게 등록·갱신하고, 퇴사자는 정해진 주기에 따라 정리해야 했습니다.</dd>
+                                        <dt>구현</dt>
+                                        <dd>외부 DB를 JDBC로 조회하고 XML 매핑 설정에 따라 내부 데이터 항목에 매핑하는 독립 실행형 모듈을 개발했습니다. 스케줄러가 이 모듈을 별도 프로세스로 실행하고 결과를 받아 저장합니다. 조직 계층 구조 보정과 최상위 조직의 그룹사 자동 생성 기능도 포함했습니다.</dd>
+                                        <dt>삭제 방지</dt>
+                                        <dd>원천 데이터에 문제가 있을 때 정상 사용자까지 삭제되지 않도록 세 가지 삭제 방지 조건을 적용했습니다. 연동이 실패했거나 결과가 0건이면 퇴사자 처리를 건너뜁니다. 신규 퇴사 처리 대상이 재직자의 50%를 초과하면 처리를 중단합니다. 삭제 직전에는 조회할 때와 같은 조건을 다시 확인합니다.</dd>
+                                        <dt>검증</dt>
+                                        <dd>실제 고객사 데이터로 조직 8,358건, 사용자 33,395건의 연동 결과와 정합성을 확인했습니다. 처리 순서와 경계 조건(퇴사 대상이 정확히 50%인 경우 등)은 단위 테스트로 검증했습니다.</dd>
+                                    </dl>
+                                    <p class="project-stack">Java · Spring Boot · JDBC · XML · SQL · JUnit 5</p>
+                                </div>
+                            </details>
+                            <details class="project" id="project-approval">
+                                <summary>
+                                    <span class="project-title">
+                                        <strong>승인 업무 규칙 확장</strong>
+                                        <span class="project-client">솔루션 공통 · 2026.04–10</span>
+                                    </span>
+                                    <span class="project-summary">국가·시차별 사후승인, 메일 단위 일괄 승인, 추천 승인·반려 사유</span>
+                                </summary>
+                                <div class="project-detail">
+                                    <dl>
+                                        <dt>사후승인</dt>
+                                        <dd>해외 법인처럼 승인권자의 업무시간이 다른 경우를 지원하기 위해, 국가별 시차와 업무 요일·시간을 정책마다 저장하는 구조를 설계했습니다. 업무시간 외에 발신한 메일은 먼저 발송하고 이후에 승인받는 흐름을 구현했습니다.</dd>
+                                        <dt>일괄 승인</dt>
+                                        <dd>수신자 단위로만 표시되던 승인 대기 목록을 메일 단위로 묶어 볼 수 있게 했습니다. 같은 메일의 대표 데이터와 수신자 건수를 조회하는 집계 SQL을 작성했고, 묶음 승인·반려 시 건별 보고서 발송과 중복 클릭 방지를 처리했습니다.</dd>
+                                        <dt>추천 승인·반려 사유</dt>
+                                        <dd>승인·반려 사유를 미리 등록해 선택할 수 있게 했습니다. 로그인 언어에 맞는 사유가 표시되도록 다국어 구조를 적용했습니다.</dd>
+                                    </dl>
+                                    <p class="project-stack">Java · Spring Boot · JPA · MyBatis · MariaDB</p>
+                                </div>
+                            </details>
+                            <details class="project" id="project-security">
+                                <summary>
+                                    <span class="project-title">
+                                        <strong>보안 점검 대응과 단위 테스트 작성</strong>
+                                        <span class="project-client">물류 대기업 고객사 · 솔루션 공통 · 2026.05–11</span>
+                                    </span>
+                                    <span class="project-summary">모의해킹 취약점 조치, 서버 접근제어, 로그인 잠금·퇴사자 처리 로직 단위 테스트</span>
+                                </summary>
+                                <div class="project-detail">
+                                    <dl>
+                                        <dt>조치</dt>
+                                        <dd>모의해킹에서 확인된 보안 취약점에 대응해 관리자 로그인 계정 잠금 기능(실패 횟수와 잠금 시간 설정)을 추가했습니다. 아이디 없음, 비밀번호 불일치, 잠긴 계정의 응답을 동일하게 처리해 계정 존재 여부가 노출되지 않게 했습니다.</dd>
+                                        <dt>접근제어</dt>
+                                        <dd>관리자의 메일 열람 제한을 화면뿐 아니라 서버 Interceptor에도 적용했습니다. 메일 상세, 원문, 헤더, 로그 조회 URL에 직접 접근하더라도 403을 반환합니다.</dd>
+                                        <dt>테스트</dt>
+                                        <dd>자동화 테스트가 거의 없던 프로젝트에서 로그인 잠금과 퇴사자 처리 로직의 단위 테스트를 작성했습니다. 잠금 해제 시각의 경계값, 설정값 변경 반영, 처리 순서를 검증했습니다.</dd>
+                                    </dl>
+                                    <p class="project-stack">Java · Spring Boot · Spring Interceptor · JUnit 5 · Mockito</p>
+                                </div>
+                            </details>
+                            <details class="project" id="project-operations">
+                                <summary>
+                                    <span class="project-title">
+                                        <strong>카드사 연동 개발과 고객사 상주·오픈 지원</strong>
+                                        <span class="project-client">카드 고객사 · 2026.02–04</span>
+                                    </span>
+                                    <span class="project-summary">SSO 연동, OCR 개인정보 검출 운영 화면, 6주 상주하며 운영 반영과 장애 원인 분석</span>
+                                </summary>
+                                <div class="project-detail">
+                                    <dl>
+                                        <dt>개발</dt>
+                                        <dd>SSO 연동 방식 변경, OCR 검사 모드 설정, 이미지에서 검출된 개인정보 수와 텍스트 표시, GPU·메모리 자원 모니터링 화면을 개발했습니다.</dd>
+                                        <dt>상주</dt>
+                                        <dd>6주간 고객사에 상주하며 기능·성능 테스트, 운영 반영, 오픈 전후 모니터링을 수행했습니다. 개발 환경에서 재현되지 않는 문제는 Apache, 여러 대의 WAS, DB로 이어지는 요청 흐름과 로그를 분석해 원인을 찾았습니다.</dd>
+                                        <dt>장애 사례</dt>
+                                        <dd>특정 HTML 메일에서만 본문이 사라지는 문제가 있었습니다. 원인은 문서를 순회하면서 주석을 바로 삭제하는 코드였습니다. 최상위에 주석이 있는 메일에서는 순회 과정에서 노드 목록이 변경되어 본문이 누락됐습니다. 주석 수집과 삭제를 분리하고 탐색 범위를 하위 노드 전체로 넓혀 해결했습니다.</dd>
+                                    </dl>
+                                    <p class="project-stack">Java · Spring Boot · JSP · JavaScript · Apache/Tomcat</p>
+                                </div>
+                            </details>
+                            <details class="project" id="project-filter">
+                                <summary>
+                                    <span class="project-title">
+                                        <strong>수신 필터·보안메일 기능 개발</strong>
+                                        <span class="project-client">은행 고객사 · 솔루션 공통 · 2025.09–2026.01</span>
+                                    </span>
+                                    <span class="project-summary">인증된 메일 관리 메뉴 신규 개발, 메일 엔진 연동, 보안메일 재발신 정책</span>
+                                </summary>
+                                <div class="project-detail">
+                                    <dl>
+                                        <dt>수신 필터</dt>
+                                        <dd>인증된 메일을 지정한 서버로 전달하는 메뉴를 새로 개발했습니다. 다중 검사 조건, 입력 유형별 허용 규칙(주소·도메인, IP·대역), 엑셀 내려받기를 구현했고, 설정을 저장하거나 삭제하면 메일 엔진에 변경 사항이 반영되도록 했습니다.</dd>
+                                        <dt>보안메일</dt>
+                                        <dd>재발신할 때 조회·인증 실패 횟수는 초기화하고 이전 열람 이력은 유지하도록 기준을 정했습니다. 관리자와 사용자 화면에 같은 정책을 적용했습니다.</dd>
+                                    </dl>
+                                    <p class="project-stack">Java · Spring Boot · JPA · MyBatis · JSP</p>
+                                </div>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="company">
+                        <div class="company-head">
+                            <h3>마인드프로</h3>
+                            <p class="company-meta">웹개발팀 주임 · 2022.12 – 2024.10</p>
+                        </div>
+                        <p class="company-desc">SI 프로젝트에서 음원·결제 서비스와 제조 대기업 업무 시스템의 개발, DB 전환, 유지보수를 담당했습니다.</p>
+                        <div class="project-list">
+                            <details class="project" id="project-genie">
+                                <summary>
+                                    <span class="project-title">
+                                        <strong>Oracle → MSSQL DB 전환</strong>
+                                        <span class="project-client">음원 서비스 · 2022.12–2023.07</span>
+                                    </span>
+                                    <span class="project-summary">프로시저·함수·데이터 타입 변환, 애플리케이션 연동과 전환 전후 정합성 검증</span>
+                                </summary>
+                                <div class="project-detail">
+                                    <dl>
+                                        <dt>내용</dt>
+                                        <dd>Oracle 기반 서비스 DB를 MSSQL로 전환하면서 담당 프로시저와 함수의 SQL 문법 및 데이터 타입을 MSSQL에 맞게 변환했습니다. Java, C#, VBScript 애플리케이션의 DB 연결 설정을 분석해 수정했고, 전환 전후의 데이터 정합성과 애플리케이션 연동을 검증했습니다.</dd>
+                                    </dl>
+                                    <p class="project-stack">Oracle · MSSQL · SQL · Java</p>
+                                </div>
+                            </details>
+                            <details class="project" id="project-ims">
+                                <summary>
+                                    <span class="project-title">
+                                        <strong>투자·발주 관리 시스템 유지보수(IMS·ATS)</strong>
+                                        <span class="project-client">제조 대기업 · 2024.01–2024.08</span>
+                                    </span>
+                                    <span class="project-summary">투자 배부율 계산 로직, HR 연동 쿼리, 인사 배치 오류 수정, 연도별 매출 집계 개선</span>
+                                </summary>
+                                <div class="project-detail">
+                                    <dl>
+                                        <dt>내용</dt>
+                                        <dd>투자관리 시스템의 배부율 계산 로직과 변경 이력 기능을 개선하고, 조직 개편에 맞춰 HR 연동 쿼리를 수정했습니다. 인사 배치에서 발생한 참조 무결성 오류와 날짜 형식 오류의 원인을 분석해 수정했습니다. 연도별 매출 집계는 동적 열 구성과 계산 기준을 조정했습니다.</dd>
+                                    </dl>
+                                    <p class="project-stack">Java · Spring · MyBatis · SQL · SVN</p>
+                                </div>
+                            </details>
+                            <details class="project" id="project-icms">
+                                <summary>
+                                    <span class="project-title">
+                                        <strong>5단계 승인 업무 시스템(ICMS)</strong>
+                                        <span class="project-client">제조 대기업 · 2023.11–2024.01</span>
+                                    </span>
+                                    <span class="project-summary">요청·수행·확인·승인·완료 단계별 권한과 자가 승인 예외</span>
+                                </summary>
+                                <div class="project-detail">
+                                    <dl>
+                                        <dt>내용</dt>
+                                        <dd>단계마다 처리 담당자와 접근 권한이 달라지는 업무 흐름을 화면과 서버 로직에 반영했습니다. 팀장 이상 직급의 자가 승인 예외와 법인별 다국어를 적용했고, 시나리오 테스트와 현업 피드백을 거쳐 보완했습니다.</dd>
+                                    </dl>
+                                    <p class="project-stack">Java · Spring · JSP · Tiles</p>
+                                </div>
+                            </details>
+                            <details class="project" id="project-payletter">
+                                <summary>
+                                    <span class="project-title">
+                                        <strong>상품권 거래 플랫폼</strong>
+                                        <span class="project-client">결제 서비스 · 2023.08–2023.12</span>
+                                    </span>
+                                    <span class="project-summary">상품 목록 API·화면과 조건별 조회 프로시저</span>
+                                </summary>
+                                <div class="project-detail">
+                                    <dl>
+                                        <dt>내용</dt>
+                                        <dd>카테고리별 상품 목록 API와 정렬·필터·검색 조건별 조회 프로시저를 구현하고, 상품 목록 화면의 데이터 바인딩과 이벤트 처리를 개발했습니다.</dd>
+                                    </dl>
+                                    <p class="project-stack">Java · Spring Boot · MyBatis · MSSQL · Thymeleaf</p>
+                                </div>
+                            </details>
+                            <details class="project" id="project-mindflow">
+                                <summary>
+                                    <span class="project-title">
+                                        <strong>문제은행 서비스 초기 설계</strong>
+                                        <span class="project-client">자체 서비스 · 2024.09–2024.10</span>
+                                    </span>
+                                    <span class="project-summary">요구사항 정리, 데이터 모델 설계, 초기 백엔드 기능 구현</span>
+                                </summary>
+                                <div class="project-detail">
+                                    <dl>
+                                        <dt>내용</dt>
+                                        <dd>사용자·관리자 요구사항과 시험 응시 흐름을 정리하고 데이터 모델을 설계해 초기 백엔드 기능을 구현했습니다.</dd>
+                                    </dl>
+                                    <p class="project-stack">Java · Spring Boot · MyBatis · MariaDB</p>
+                                </div>
+                            </details>
+                        </div>
+                    </article>
+                    <p class="prior-career">개발자로 전직하기 전에는 브랜드 마케팅과 행사 기획 업무(2015–2021)를 담당했습니다. 고객의 요구를 듣고 일정과 예산을 관리한 경험은 요구사항을 정리하고 고객사와 협의하는 데 도움이 되고 있습니다.</p>
+                </div>
+            </section>
+            <section class="section section-alt" id="skills">
+                <div class="wrap">
+                    <p class="eyebrow">TOOLKIT</p>
+                    <h2>기술과 사용 경험</h2>
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">실무 개발·운영 경험</h3>
+                        <p class="skill-group-note">기원테크와 마인드프로에서 실무 개발 및 운영에 사용한 기술입니다.</p>
+                        <div class="skill-grid">
+                            <article class="skill">
+                                <h4>백엔드</h4>
+                                <p class="skill-name">Java · Spring · Spring Boot</p>
+                                <p>업무 로직, API, 정책 검증, 배치·인터페이스 모듈 개발</p>
+                            </article>
+                            <article class="skill">
+                                <h4>데이터</h4>
+                                <p class="skill-name">SQL · MariaDB · MSSQL · Oracle · MyBatis · JPA · JDBC</p>
+                                <p>SQL 성능 개선, 데이터 모델링, DB 전환과 정합성 검증</p>
+                            </article>
+                            <article class="skill">
+                                <h4>프론트엔드</h4>
+                                <p class="skill-name">JSP/JSTL · Thymeleaf · JavaScript · jQuery</p>
+                                <p>관리자·사용자 업무 화면 개발</p>
+                            </article>
+                            <article class="skill">
+                                <h4>테스트</h4>
+                                <p class="skill-name">JUnit 5 · Mockito</p>
+                                <p>단위 테스트</p>
+                            </article>
+                            <article class="skill">
+                                <h4>서버·운영</h4>
+                                <p class="skill-name">Linux · Apache · Tomcat</p>
+                                <p>고객사 운영 반영, 장애 원인 분석</p>
+                            </article>
+                            <article class="skill">
+                                <h4>빌드·형상 관리</h4>
+                                <p class="skill-name">Maven · Git · SVN</p>
+                                <p>빌드, 브랜치 통합, 변경 이력 관리</p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3 class="skill-group-title">AI 기반 개발 경험</h3>
+                        <p class="skill-group-note">Traceboard의 시스템 설계, AI 에이전트 연동 및 구현 결과 검증에 활용한 기술입니다.</p>
+                        <div class="skill-grid skill-grid-two">
+                            <article class="skill">
+                                <h4>AI 개발·연동</h4>
+                                <p class="skill-name">Claude Code · MCP</p>
+                                <p>에이전트 역할 분리, 승인 절차, 작업 기록 관리를 위한 MCP 서버 설계</p>
+                            </article>
+                            <article class="skill">
+                                <h4>웹 애플리케이션</h4>
+                                <p class="skill-name">TypeScript · Next.js · React · Prisma · MariaDB</p>
+                                <p>Traceboard의 시스템 설계 및 구현 결과 검증</p>
+                            </article>
                         </div>
                     </div>
                 </div>
             </section>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+            <section class="section" id="profile">
+                <div class="wrap">
+                    <p class="eyebrow">PROFILE</p>
+                    <h2>학력 · 교육 · 자격</h2>
+                    <div class="profile-grid">
+                        <article>
+                            <h3>학력·교육</h3>
+                            <ul class="plain">
+                                <li>
+                                    <strong>성공회대학교</strong>
+                                    <span>사회과학부 · 사회학·정치학 복수전공 · 2009.03–2015.08 졸업</span>
+                                </li>
+                                <li>
+                                    <strong>더조은아카데미학원</strong>
+                                    <span>빅데이터 기반 AI 알고리즘 서비스 과정 · 2021.10–2022.06 · 1,080시간</span>
+                                    <span>최우수 성적 수료 · 중소벤처기업부 장관상</span>
+                                </li>
+                            </ul>
+                        </article>
+                        <article>
+                            <h3>자격·어학</h3>
+                            <ul class="plain cert-list">
+                                <li>
+                                    <strong>정보처리기사</strong>
+                                    <span>2025.09</span>
+                                </li>
+                                <li>
+                                    <strong>SQLD</strong>
+                                    <span>2024.09</span>
+                                </li>
+                                <li>
+                                    <strong>네트워크관리사 2급</strong>
+                                    <span>2026.09</span>
+                                </li>
+                                <li>
+                                    <strong>TOEIC 950</strong>
+                                    <span>2025.05</span>
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="wrap footer-inner">
+                <p>© 이슬 · Java/Spring Backend Developer</p>
+                <p>
+                    <a href="mailto:hello.summer.dev@gmail.com">hello.summer.dev@gmail.com</a>
+                    ·
+                    <a href="https://github.com/hellosummerdev" target="_blank" rel="noopener">github.com/hellosummerdev</a>
+                </p>
+            </div>
+        </footer>
+        <dialog class="lightbox" id="lightbox" aria-label="스크린샷 크게 보기">
+            <button class="lightbox-close" type="button" aria-label="닫기">×</button>
+            <img alt="" />
+            <p class="lightbox-caption"></p>
+        </dialog>
         <script src="js/scripts.js"></script>
     </body>
 </html>
