@@ -1,24 +1,5 @@
 //
-// Styles
+// Portfolio styles (Bootstrap 템플릿 대신 자체 스타일)
 //
 
-// Import variables
-@import "./variables.scss";
-
-// Import Bootstrap
-@import "bootstrap/scss/bootstrap.scss";
-
-// Global CSS
-@import "./global.scss";
-
-// Components
-@import "./components/sidenav.scss";
-@import "./components/icons.scss";
-
-// Sections
-@import "./sections/resume-section.scss";
-
-// Main
-@import "main";
-
-@import "career";
+@import "portfolio";

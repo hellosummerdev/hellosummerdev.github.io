@@ -1,27 +1,23 @@
-# Summer Lee - Web Developer Portfolio
+# Summer Lee - Backend Developer Portfolio
 
-
-**Welcome!**  
-This is my personal resume and portfolio page built with the **Start Bootstrap Resume Template**.
-
-안녕하세요. 웹 백엔드를 중심으로 실무 경험을 쌓아온 개발자입니다.  
-이 저장소는 제 기술 스택, 프로젝트 이력, 교육 이수 내용을 정리한 이력 페이지입니다.
+Java/Spring 백엔드 개발자 이슬의 포트폴리오 페이지입니다.
 
 🔗 [Visit Portfolio](https://hellosummerdev.github.io)
 
 ## 주요 내용
-- 경력 및 프로젝트 소개
-- 기술 스택별 역량 표현
-- 교육 및 자격 사항
+- 대표 작업: Traceboard(AI 에이전트 개발 관리 시스템), 신중앙 관제 시스템 리뉴얼(요구사항 분석·데이터 설계) — 실제 화면 스크린샷 포함
+- 경력과 프로젝트: 문제·원인·해결·결과 중심 사례
+- 기술, 학력·교육·자격
 
-## 기술 스택
-- HTML5 / SCSS
-- Bootstrap / jQuery
-- Pug (템플릿 엔진)
+## 구성
+- Pug(템플릿) + SCSS, 외부 프레임워크 없이 자체 스타일
+- `src/pug/index.pug`: 본문과 프로젝트 데이터
+- `src/scss/_portfolio.scss`: 스타일
+- `src/assets/img/projects/`: 프로젝트 스크린샷
 
-## 배포 방식
-- GitHub Pages를 통해 정적 페이지로 배포 중
-
----
-
-> 이 프로젝트는 개인 포트폴리오 용도로 제작되었으며, 추후 쇼핑몰 프로젝트와 별도로 운영됩니다.
+## 빌드·배포
+```bash
+npm install
+npm run build      # dist/ 생성
+npm run deploy     # gh-pages 브랜치로 배포
+```
